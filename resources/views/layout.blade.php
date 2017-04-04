@@ -9,9 +9,11 @@
 	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 	<link href="/public/css/bootstrap.min.css" rel="stylesheet">
-	<script src="{{ asset('js/jquery-3.2.0.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('js/jquery.cookie.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('js/closealert.js') }}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<script type="text/javascript" src="{{ asset('js/jquery.cookie.js') }}"></script>
+  	<script type="text/javascript" src="{{ asset('js/closealert.js') }}"></script>
   	<script>
         window.Laravel = {!! json_encode([
             'csrfToken' => csrf_token(),
